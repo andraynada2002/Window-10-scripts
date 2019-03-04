@@ -23,5 +23,6 @@ logical_not 2;
 logical_or 3;
 set Neurons;
 namespace Neurons;
+int a++, b++, c++
 
  
