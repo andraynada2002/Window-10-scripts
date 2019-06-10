@@ -1,8 +1,8 @@
-//GPU optimizing
-//Optimizing GPU
-//Optimizing GPU performance
-//Optimizing GPU quality
-[System.AttributeUsage(System.AttributeTargets.GPU, Inherited = false, AllowMultiple = true)]
+//Optimizing FPU
+//FPU optimizing
+//Optimizing FPU quality
+//Optimizing FPU performance
+[System.AttributeUsage(System.AttributeTargets.FPU, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
     // See the attribute guidelines at
@@ -26,3 +26,4 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+

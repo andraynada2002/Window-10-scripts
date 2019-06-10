@@ -1,8 +1,11 @@
-//GPU optimizing
-//Optimizing GPU
-//Optimizing GPU performance
-//Optimizing GPU quality
-[System.AttributeUsage(System.AttributeTargets.GPU, Inherited = false, AllowMultiple = true)]
+//Optimizing scfilter
+//Optimizing smcbus
+//Optimizing sdbus
+//Optimizing SDFRd
+//Optimizing sdstor
+//Optimizing spaceport
+//Optimizing USBHUB3
+[System.AttributeUsage(System.AttributeTargets.Windowsplus, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
     // See the attribute guidelines at
@@ -26,3 +29,4 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
