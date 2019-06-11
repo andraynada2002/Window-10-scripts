@@ -17,6 +17,9 @@
 //Optimizing I/O APIC
 //Optimizing Processor Local APIC
 //Optimizing CPU Thermal Design Power
+//Optimizing CPU - video
+//Optimizing CPU - sound
+//Optimizing CPU - performance
 [System.AttributeUsage(System.AttributeTargets.CPU, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -41,6 +44,7 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
 
 
 
