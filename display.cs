@@ -1,98 +1,30 @@
-public class Display
+//Optimizing Display
+//Optimizing Display - performance
+//Optimizing Display - video
+//Optimizing Display - sound
+//Optimizing Display - properties
+//Optimizing Display - functions
+[System.AttributeUsage(System.AttributeTargets.Display, Inherited = false, AllowMultiple = true)]
+sealed class MyAttribute : System.Attribute
 {
-  struct
-}
-{
-  abstract Display; DataType[] VariableName = {}; async Task<T> MethodName() {
-    async void MethodName() {
-      await Display;
-      Console.Write(); while (Condition) {
-        Console.WriteLine();
-        else {
-          else if (Condition) {
-            enum
-            {
-              return Display;
-              #region #Display
-
-
-
-              #endregion
-
-            }
-          }
-        }
-      }
-    }
-  }
-}
-{
-  Console.ReadLine(); throw Display; throw new Display; try {
-    using System
-    if (Condition) {
-      interface Display;
-      override Display;
-      DataType.Parse(VariableName);
-      {
-        protected Display;
-        private Display;
-        sealed Display;
-        static Display;
-        switch (Expression) {
-
-        }
-      }
-    };
-  }
-}
-{
-  default:
-    do {
-
-    } while (Condition);
-}
-{
-  fixed (Expression) {
-    for (Initializer; Condition; Update) {
-      foreach (Type in Collection) {
-        finally {
-          catch (Exception e) {
-            public const string Var = 2 ;
-            {
-              public const string Var = 23 ;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-{
-  string var = null;
-}
-{
-  virtual Display;
-  break;
-  namespace NamespaceName
-  {
-    void Method()
+    // See the attribute guidelines at
+    //  http://go.microsoft.com/fwlink/?LinkId=85236
+    readonly string positionalString;
+    
+    // This is a positional argument
+    public MyAttribute(string positionalString)
     {
-      /// <summary>
-      ///   The main entry point for the application
-      /// </summary>
-      [STAThread]
-      public static void Main(string[] args)
-      {
-        Expression Display;
-        Exception Display;
-      }
+        this.positionalString = positionalString;
+        
+        // TODO: Implement code here
+        throw new System.NotImplementedException();
     }
-  }
-}
-{
-  //Display optimized
-  //Display boosted
-  //Display computerized optimized
- //Display ultra power
- console.Write(); public string PropertyName; { get; set; } PropertyName Display; PropertyName Display_optimized; PropertyName Display_boosted; PropertyName Display_computerized_optimized; PropertyName Display_ultra_power;
+    
+    public string PositionalString
+    {
+        get { return positionalString; }
+    }
+    
+    // This is a named argument
+    public int NamedInt { get; set; }
 }
