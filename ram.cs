@@ -50,6 +50,18 @@
 //Optimizing DDR5 - performance
 //Optimizing DDR5 - video
 //Optimizing DDR5 - sound
+//Optimizing RAM - functions
+//Optimizing RAM - properties
+//Optimizing DDR - functions
+//Optimizing DDR - properties
+//Optimizing DDR2 - functions
+//Optimizing DDR2 - properties
+//Optimizing DDR3 - functions
+//Optimizing DDR3 - properties
+//Optimizing DDR4 - functions
+//Optimizing DDR4 - properties
+//Optimizing DDR5 - functions
+//Optimizing DDR5 - properties
 [System.AttributeUsage(System.AttributeTargets.RAMPM, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -74,6 +86,7 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
 
 
 
