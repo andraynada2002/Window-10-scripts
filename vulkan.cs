@@ -6,6 +6,10 @@
 //Optimizing Vulkan API - performance
 //Optimizing Vulkan API - sound
 //Optimizing Vulkan API - video
+//Optimizing Vulkan - properties
+//Optimizing Vulkan - functions
+//Optimizing Vulkan API - properties
+//Optimizing Vulkan API - functions
 [System.AttributeUsage(System.AttributeTargets.VulkanX, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -30,3 +34,4 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
