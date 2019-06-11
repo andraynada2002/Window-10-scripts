@@ -45,7 +45,9 @@
 //Optimizing Surface Alignment
 //Optimizing GPU - video
 //Optimizing GPU - sound
-//Optimizing GPU - performance	
+//Optimizing GPU - performance
+//Optimizing GPU - properites
+//Optimizing GPU - functions
 [System.AttributeUsage(System.AttributeTargets.GPUS, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -70,4 +72,5 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
 
