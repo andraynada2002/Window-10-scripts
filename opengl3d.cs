@@ -4,6 +4,8 @@
 //Optimizing OpenGL - sound
 //Optimizing Functions OpenGL
 //Optimizing OpenGL - performance
+//Optimizing OpenGL - functions
+//Optimizing OpenGL - properties
 [System.AttributeUsage(System.AttributeTargets.OpenGL3D, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -28,4 +30,5 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
 
