@@ -2,6 +2,8 @@
 //Optimizing CUDA - performance
 //Optimizing CUDA - video
 //Optimizing CUDA - sound
+//Optimizing CUDA - functions
+//Optimizing CUDA - properties
 [System.AttributeUsage(System.AttributeTargets.CUDA3D, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -26,3 +28,4 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
