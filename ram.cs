@@ -34,7 +34,22 @@
 //Optimizing timer controller
 //Optimizing RAM - performance
 //Optimizing RAM - video
-//Optimizing RAM - audio
+//Optimizing RAM - sound
+//Optimizing DDR - performance
+//Optimizing DDR - video
+//Optimizing DDR - sound
+//Optimizing DDR2 - performance
+//Optimizing DDR2 - sound
+//Optimizing DDR2 - video
+//Optimizing DDR3 - performance
+//Optimizing DDR3 - sound
+//Optimizing DDR3 - video
+//Optimizing DDR4 - performance
+//Optimizing DDR4 - sound
+//Optimizing DDR4 - video
+//Optimizing DDR5 - performance
+//Optimizing DDR5 - video
+//Optimizing DDR5 - sound
 [System.AttributeUsage(System.AttributeTargets.RAMPM, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -59,5 +74,6 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
 
 
