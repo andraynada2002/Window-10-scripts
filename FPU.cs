@@ -2,6 +2,9 @@
 //FPU optimizing
 //Optimizing FPU quality
 //Optimizing FPU performance
+//Optimizing FPU - video
+//Optimizing FPU - sound
+//Optimizing FPU - performance
 [System.AttributeUsage(System.AttributeTargets.FPU, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -26,4 +29,5 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
 
