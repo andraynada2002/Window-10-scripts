@@ -4,6 +4,12 @@
 //Optimizing Applications - video
 //Optimizing Applications - properties
 //Optimizing Applications - functions
+//Optimizing Microsoft Store Applications
+//Optimizing Microsoft Store Applications - performance
+//Optimizing Microsoft Store Applications - video
+//Optimizing Microsoft Store Applications - sound
+//Optimizing Microsoft Store Applications - properties
+//Optimizing Microsoft Store Applications - functions
 [System.AttributeUsage(System.AttributeTargets.Applications, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -28,3 +34,4 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
