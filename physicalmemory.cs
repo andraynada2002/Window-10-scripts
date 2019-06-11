@@ -1,93 +1,30 @@
-public class physicalmemory
+//Optimizing Physical Memory
+//Optimizing Physical Memory - performance
+//Optimizing Physical Memory - video
+//Optimizing Physical Memory - sound
+//Optimizing Physical Memory - properties
+//Optimizing Physical Memory - functions
+[System.AttributeUsage(System.AttributeTargets.PhysicalMemory, Inherited = false, AllowMultiple = true)]
+sealed class MyAttribute : System.Attribute
 {
-  struct
-}
-{
-  abstract physicalmemory; DataType[] VariableName = {}; async Task<T> MethodName() { async void MethodName() { await
-  Console.Write(); while (Condition) { Console.WriteLine(); else {
-    else if (Condition) {
-      enum 2;
-      return physicalmemory;
-      #region #physicalmemory
-
-
-
-      #endregion
-
-      {
-        Console.ReadLine();
-        sealed physicalmemory;
-        static physicalmemory;
-        switch (Expression) {
-        throw physicalmemory; throw new physicalmemory;
-        try {
-          using System;
-          if (Condition) {
-            interface physicalmemory;
-            override physicalmemory;
-            DataType.Parse(VariableName);
-            protected physicalmemory;
-            private physicalmemory;
-            default:
-              do {
-
-              } while (Condition);
-            {
-              fixed (Expression) {
-                for (Initializer; Condition; Update) {
-                  foreach (Type in Collection) {
-                    catch (Exception e) {
-                      public const Var = ;
-                    }
-                  }
-                    public const string Var = 273 ;
-                  }
-                }
-              }
-            }
-
-          }
-        }
-        }
-
-        }
-      }
-
-    }
-  }
-
-  }
-  }
-
-  }
-}
-{
-  case Condition:
-  }
-  {
-    string var = null;
-    virtual physicalmemory;
-    break;
-    namespace physicalmemory;
+    // See the attribute guidelines at
+    //  http://go.microsoft.com/fwlink/?LinkId=85236
+    readonly string positionalString;
+    
+    // This is a positional argument
+    public MyAttribute(string positionalString)
     {
-      void Method()
-      {
-        /// <summary>
-        ///   The main entry point for the application
-        /// </summary>
-        [STAThread]
-        public static void Main(string[] args)
-        {
-          //Physical memory optimized
-          //Physical memory boosted
-          //Physical memory computerized optimized
-          //Physical memory ultra power
-          console.Write(); public const string var 124; PropertyName physical_memory; PropertyName physical_memory_optimized; PropertyName physical_memory_boosted; PropertyName physical_memory_computerized_optimized;
-        }
-      }
+        this.positionalString = positionalString;
+        
+        // TODO: Implement code here
+        throw new System.NotImplementedException();
     }
+    
+    public string PositionalString
     {
-
+        get { return positionalString; }
     }
-  }
-  
+    
+    // This is a named argument
+    public int NamedInt { get; set; }
+}
