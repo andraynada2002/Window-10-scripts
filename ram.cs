@@ -32,6 +32,9 @@
 //Optimizing Burst Length (BL)
 //Optimizing Intel Ivy Bridge-DT IMC
 //Optimizing timer controller
+//Optimizing RAM - performance
+//Optimizing RAM - video
+//Optimizing RAM - audio
 [System.AttributeUsage(System.AttributeTargets.RAMPM, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -56,4 +59,5 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
 
