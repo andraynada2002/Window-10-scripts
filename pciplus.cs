@@ -13,6 +13,10 @@
 //Optimizing Video Adapter
 //Optimizing BUS mastering
 //Optimizing Realtek PCIe GbE Family Controller
+//Optimizing PnP
+//Optimizing PnP Net
+//Optimizing Realtek PnP
+//Optimizing Realtek PnP Controller
 [System.AttributeUsage(System.AttributeTargets.PCI, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -37,5 +41,6 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
 
 
