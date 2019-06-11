@@ -2,6 +2,8 @@
 //Optimizing OpenCL - performance
 //Optimizing OpenCL - video
 //Optimizing OpenCL - sound
+//Optimizing OpenCL - functions
+//Optimizing OpenCL - properties
 [System.AttributeUsage(System.AttributeTargets.OpenCL3D, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -26,3 +28,4 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
