@@ -10,6 +10,10 @@
 //Optimizing FourCC
 //Optimizing Direct3D - performance
 //Optimizing DirectX - performance
+//Optimizing Direct3D - functions
+//Optimizing Direct3D - properties
+//Optimizing DirectX - functions
+//Optimizing DirectX - properties
 [System.AttributeUsage(System.AttributeTargets.DX13, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -34,5 +38,6 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
 
 
